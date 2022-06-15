@@ -9,6 +9,7 @@ import iconsun from './icon-sun.svg';
 import {useState,useEffect} from 'react';
 import Aos from 'aos'
 import 'aos/dist/aos.css';
+import Footer from './footer';
 
 function App() {
   const [img,setimg] = useState(false);
@@ -32,7 +33,7 @@ function App() {
      </Route>
    </Switch>
    </BrowserRouter>
-   <div className="changeimg">
+   <div className={bg ? 'changeimg':'changeimgs'}>
    <img src={img ? iconsun:iconmoon} onClick={()=>changeimg()} style={{width:'20px'}}/>
 
    </div>
@@ -40,6 +41,7 @@ function App() {
    <Email/>
    </div>
    </div>
+   
  
    
    </>

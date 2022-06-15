@@ -4,7 +4,7 @@ import './stylrs.css'
 function Header() {
   return (
     <header className='home-header'>
-        <h2>Inc. This morning</h2>
+        <h2>In. This morning</h2>
         <h1>
             <span></span>Chax-Blog<span></span>
         </h1>

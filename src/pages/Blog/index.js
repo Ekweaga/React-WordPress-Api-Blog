@@ -18,12 +18,13 @@ function Blog() {
   return (
     <><div>
       <Header />
-    </div>  <div className=' blog' >
-      <div>Published {blog?.createdAt}</div><br/>
+    </div>  
+    <div className=' blog' >
+      <div className='publish'>Published {blog?.createdAt}</div><br/>
         <h3 style={{fontSize:'25px'}}>{blog?.title}</h3> <br/>
         <div className='btns'>
-          {blog?.subcategory.map((category)=>{
-            return(<div><Label label={category}/></div>)
+          {blog?.subcategory.map((category,index)=>{
+            return(<div><Label label={category} key={index}/></div>)
           })}
         </div><br/>
         <img src={blog?.cover} className='blogItem-cover'/>

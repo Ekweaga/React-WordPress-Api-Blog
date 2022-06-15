@@ -5,7 +5,7 @@ function BlogList({blogs}) {
   return (
     <div className='bloglist-wrap'>
         {blogs.map((blog)=>{
-            return <BlogItem blog={blog}/>
+            return <BlogItem blog={blog} key={blog.id}/>
         })}
     </div>
   )

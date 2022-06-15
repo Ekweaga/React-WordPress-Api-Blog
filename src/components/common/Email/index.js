@@ -19,7 +19,7 @@ function Email() {
   return (
     <div className='EmailContainer' >
     < div className='EmailContent'>
-        <h1>Get Access to our Exclusive updates</h1>
+        <h7 style={{fontWeight:'700',marginBottom:'20px'}} >Get Access to our Exclusive updates</h7>
         <p>Sign up for your newsletter below to get a free offer on our first update</p>
         <form onSubmit={handlesubmit}>
             <div className='FormWrap' >
