@@ -1,0 +1,44 @@
+.blog{
+    margin-bottom: 150px;
+    height:100vh;
+    max-width:700px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+}
+.blog .blogItem-desc{
+    overflow: visible;
+    margin-bottom: 40px;
+    letter-spacing: 0.1rem;
+}
+.blog footer{
+    margin-top: 50px;
+}
+
+.btns{
+    display:flex;
+    
+}
+.btns div{
+    margin:8px;
+}
+
+@media(max-width:768px){
+    .blog{
+        margin-bottom: 240px;
+        height:100vh;
+        max-width:900px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:100px;
+        padding:2rem;
+    }
+    .blog footer{
+        margin-top: 250px;
+       
+    }
+    .blog .blogItem-desc{
+        overflow: visible;
+        margin-bottom: 100px;
+    }
+}

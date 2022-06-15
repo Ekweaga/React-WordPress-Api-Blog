@@ -1,0 +1,11 @@
+.btn{
+    font-size:0.7rem;
+    background: linear-gradient(to right, #5086eb, #a7bfe8);
+    color:white;
+    padding:0.5rem 0.7rem;
+    border-radius: 8px;
+    width:fit-content;
+    text-transform: capitalize;
+    outline:none;
+    border: none;
+}

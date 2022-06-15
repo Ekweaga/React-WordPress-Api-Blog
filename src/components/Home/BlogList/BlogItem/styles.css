@@ -10,10 +10,11 @@
     
     border-radius: 20px;
     margin-bottom: 0.5rem;
-    box-shadow: 8px 5px 10px 8px rgba(0,0,0,0.1);
+   
 }
 .blogItem-wrap h3{
     margin:0.5rem 0 1rem;
+    flex:1;
     
 
 }
@@ -38,10 +39,19 @@
     justify-content: space-between;
 }
 .blogItem-author{
+display:flex;
+align-items: center;
 
+}
+.blogItem-author p{
+    font-size:0.6rem;
+    font-weight: 800;
+    color:#a9a9a9;
 }
 .blogItem-author .blogItem-avatar{
     border-radius: 50%;
-    height:50px;
-    width:50px;
+    height:40px;
+    width:40px;
+    object-fit: cover;
+    margin-right: 0.5rem;
 }

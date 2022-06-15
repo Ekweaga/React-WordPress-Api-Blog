@@ -1,9 +1,33 @@
 .container{
-  max-width:1140px;
-  width:95%;
+ 
+  width:100%;
   margin:0 auto;
   padding:1rem 0;
+  background-color: rgb(255, 255, 255);
+  position: relative;
   
+}
+.containers{
+ 
+  width:100%;
+  margin:0 auto;
+  padding:1rem 0;
+  background-color: black;
+  position: relative;
+}
+.changeimg{
+  position: absolute;
+  top:10px;
+  right:20px;
+  background-color: rgba(230, 230, 230, 0.219);
+  padding:0.2rem;
+}
+.footer{
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+ 
 }
 
 *,

@@ -24,7 +24,7 @@ function Email() {
         <form onSubmit={handlesubmit}>
             <div className='FormWrap' >
                 <label>
-                    <input type="email" placeholder="Enter Email" id="email"data-aos="slide-up" value={inputset} onChange={(e)=>setinputset(e.target.value)}/>
+                    <input type="email" placeholder="Enter Email" id="email" value={inputset} onChange={(e)=>setinputset(e.target.value)}/>
                 </label>
                 <button>Subscribe</button>
                 
